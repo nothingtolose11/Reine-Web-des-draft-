@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+<meta charset = "UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<Title> Products Page </Title>
+</head>
+<body>
+<body bgcolor="#FFB6C1">
+<Header>
+<Hr>	
+<center> <H1> Products</h1> </center>
+</header>
+<center><nav><b><font face="Courier New">
+		<a href="partners.html">Home</a> |
+		<a href="products.html">Products</a> |
+		<a href="AboutUs.html">About Us</a> |
+		<a href="ContactUs.html">Contact Us</a> |
+		<a href="index.html">index</a> 
+	</font></b></nav></center>
+	<hr>
+	<center>
+    <video width="1220" height="700" controls autoplay loop muted>
+      <source src="DBTK x Ultraman teaser.mp4" type="video/mp4">
+    </video>
+	<table>
+<table border="20" width="30%" cellspacing="20">
+  <tr>
+<th colspan="2" >CLOTHING PRODUCTS RELEASED</th>
+  </tr>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <tr>
+    <td><Center><img src="ULTRAMAN.jpg"width="350" height="350"><br> DBKT X ULTRAMAN DYE TEE</td>
+    <td> <Center><img src="WavesDontStop.jpg"width="350" height="350"><br> DBTK WAVES DONT STOP TEE</td>
+	</tr>
+  <tr>
+    <td><Center><img src="raging skull tee.jpg"width="350" height="350"><br> HGHMNDS RAGING SKULL TEE</td>
+	<td><Center><img src="bat fangs tee.png"width="350" height="350"><br> HGHMNDS BAT FANGS TEE</td>
+	</tr>
+<tr>
+    <td><Center><img src="naruto.jpg"width="350" height="350"><br> OXGN NARUTO TEE</td>
+	  <td><Center><img src="GotYa.png"width="350" height="350"><br> GNARLY GOT YA TEE</td>
+</tr>
+</center>
+</table>
+ <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+<table   border="1" width="40%">
+  <tr>
+    <th> FEATURED CLOTHING PRODUCTS RELEASED</th>
+    <th>PRICE</th>
+	<th>QUANTITY</th>
+    <th>BUY NOW</th>
+  </tr>
+  <tr>
+   <td><Center><img src="ULTRAMAN.jpg"width="350" height="350"><br> DBKT X ULTRAMAN DYE TEE</td>
+    <td><Center>950 PHP</td>
+	<td><center><form action="/process_order" method="post">
+    <label for="quantity">Quantity:</label>
+    <input type="number" id="quantity" name="quantity" min="1" value="1" required>
+</form></td>
+    <td><Center><button type="submit" form="form1" value="Submit">Buy Now</button></td>
+  </tr>
+  <tr>
+    <td><Center><img src="WavesDontStop.jpg"width="350" height="350"><br> DBTK WAVES DONT STOP TEE</td>
+    <td><Center>700 PHP</td>
+	<td><center><form action="/process_order" method="post">
+    <label for="quantity">Quantity:</label>
+    <input type="number" id="quantity" name="quantity" min="1" value="1" required>
+</form></td>
+    <td><Center><button type="submit" form="form1" value="Submit">Buy Now</button></td>
+  </tr>
+  <tr>
+    <td><Center><img src="raging skull tee.jpg"width="350" height="350"><br> HGHMNDS RAGING SKULL TEE</td>
+    <td><Center>700 PHP</td>
+	<td><center><form action="/process_order" method="post">
+    <label for="quantity">Quantity:</label>
+    <input type="number" id="quantity" name="quantity" min="1" value="1" required>
+</form></td>
+    <td><Center><button type="submit" form="form1" value="Submit">Buy Now</button></td>
+  </tr>
+  <tr>
+    <td><Center><img src="bat fangs tee.png"width="350" height="350"><br> HGHMNDS BAT FANGS TEE</td>
+    <td><Center>700 PHP</td>
+	<td><center><form action="/process_order" method="post">
+    <label for="quantity">Quantity:</label>
+    <input type="number" id="quantity" name="quantity" min="1" value="1" required>
+</form></td>
+    <td><Center><button type="submit" form="form1" value="Submit">Buy Now</button></td>
+  </tr>
+  <tr>
+    <td><Center><img src="naruto.jpg"width="350" height="350"><br> OXGN NARUTO TEE</td>
+    <td><Center>850 PHP</td>
+	<td><center><form action="/process_order" method="post">
+    <label for="quantity">Quantity:</label>
+    <input type="number" id="quantity" name="quantity" min="1" value="1" required>
+</form></td>
+    <td><Center><button type="submit" form="form1" value="Submit">Buy Now</button></td>
+  </tr>
+  <tr>
+    <td><Center><img src="GotYa.png"width="350" height="350"><br> GNARLY GOT YA TEE</td>
+    <td><Center>799 PHP</td>
+	<td><center><form action="/process_order" method="post">
+    <label for="quantity">Quantity:</label>
+    <input type="number" id="quantity" name="quantity" min="1" value="1" required>
+</form></td>
+    <td><Center><button type="submit" form="form1" value="Submit">Buy Now</button></td>
+  </tr>
+</table>
+ </center>
+<footer>
+ <h2>CONTACT FORM</h2>
+ <hr>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+<br>
+            <input type="submit" value="Submit">
+			<br>
+			<br>
+			<a href="partners.html">Home</a> |
+		<a href="products.html">Products</a> |
+		<a href="AboutUs.html">About Us</a> |
+		<a href="ContactUs.html">Contact Us</a> |
+		<a href="index.html">index</a> 
+		<h4> Facebook: Hideout Clothing Apparel  </h4>
+		<h4> Instagram: HDT Clothing Apparel  </h4>
+			<h5> Copyright (c) 2024 Hideout Clothing Apparel </h5>
+        </form>
+    </footer>
+	</body>
+</html>

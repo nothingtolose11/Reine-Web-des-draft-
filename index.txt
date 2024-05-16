@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+<meta charset = "UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<Title> E-COMMERCE WEBSITE </Title>
+</head>
+<body>
+<Header>
+<Hr>	
+<center> <H1><p style="font-family:Courier New"> Welcome to Hideout Clothing Apparel</h1> </center>
+</header>
+<img src="2.png" alt="2" width="150" height="150"/>
+<Hr>
+<center><nav style="font-family:Courier New">
+		<a href="partners.html">Home</a> |
+		<a href="products.html">Products</a> |
+		<a href="AboutUs.html">About Us</a> |
+		<a href="ContactUs.html">Contact Us</a> |
+		<a href="index.html">index</a> |
+	</nav></center>
+	<hr>
+	<br>
+	<center><form action="/search" method="get">
+        <input type="text" name="query" placeholder="Enter your search" required>
+        <button type="submit">Search</button>
+    </form></center>
+	<br>
+
+<style>
+    .inline-images img {
+        display: inline;
+        margin-right: 10px; /* Optional: Add some spacing between images */
+        transition: transform 0.3s ease; /* Add smooth transition for the hover effect */
+    }
+
+    .inline-images img:hover {
+        transform: scale(1.2); /* Enlarge the image on hover */
+    }
+</style>
+<hr>
+<div class="inline-images">
+    <center>
+        <img src="hghmndsbest.jpg" width="350" height="350">
+        <img src="oxgn.jpg" width="350" height="350">
+        <img src="dbtk.jpg" width="350" height="350">
+        <img src="gnarly.jpg" width="350" height="350">
+    </center>
+</div>
+<hr>
+
+	<style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+	 <style>
+        body {
+            font-family: Courier New;
+            background-color: lightblue;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #fffff;
+			font color="white">
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #FFFFFF;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #555;
+            line-height: 1.5;
+        }
+
+    
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Hideout Clothing Apparel</h1>
+    </header>
+
+    <section>
+        <p>Hideout Clothing Apparel operates independently and is recognized for its modern and stylish fashion creations that align with current trends. The brand places a strong emphasis on ensuring the quality of its products through the use of premium materials and skilled craftsmanship. <Br>
+		Offering a varied selection of clothing items for different occasions, Hideout Clothing has established a distinct brand identity that may highlight individuality or a specific lifestyle. The company is committed to customer satisfaction, incorporating feedback into its collections and business strategies. <Br>
+		With a presence in both physical retail and online spaces, 
+		Hideout Clothing aims to reach a broad audience and accommodate various shopping preferences.<Br>
+		Overall, the brand is dedicated to providing high-quality, contemporary fashion choices in line with the latest industry trends.<Br></p>
+    </section>

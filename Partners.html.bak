@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+<meta charset = "UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<Title> Home Page </Title>
+</head>
+<body>
+<body bgcolor="#FFB6C1">
+<Header>
+<Hr>	
+<center> <H1> Home</h1> </center>
+</header>
+<center><nav><b><font face="Courier New">
+		<a href="partners.html">Home</a> |
+		<a href="products.html">Products</a> |
+		<a href="AboutUs.html">About Us</a> |
+		<a href="ContactUs.html">Contact Us</a> |
+		<a href="index.html">index</a> 
+		</font>
+	</center></nav>
+	<hr>
+	<h1> BRAND PARTNERS: </h1>
+	<hr>
+	<ol> CLOTHING BRANDS 
+  <li>HGHMNDS CLOTHING </li>
+  <li>OXGN FASHION</li>
+  <li>DONT BLAME THE KIDS APPAREL CO</li>
+  <li> GNARLY CLOTHING </li>
+  </ol>
+ <hr>
+ <div>
+        <h2>HGHMNDS CLOTHING:</h2>
+        <p>HGHMNDS Clothing is known for its modern and edgy designs. The brand focuses on creating apparel that reflects current fashion trends and urban influences.</p>
+    </div>
+
+    <div>
+        <h2>OXGN FASHION:</h2>
+        <p>OXGN Fashion is recognized for its contemporary and versatile clothing lines. The brand aims to provide stylish and comfortable fashion choices for a diverse customer base.</p>
+    </div>
+
+    <div>
+        <h2>DONT BLAME THE KIDS APPAREL CO:</h2>
+        <p>Dont Blame The Kids Apparel Co is likely to have a youthful and vibrant aesthetic. This brand may target a younger demographic, offering trendy and expressive clothing options.</p>
+    </div>
+
+    <div>
+        <h2>GNARLY CLOTHING:</h2>
+        <p>Gnarly Clothing is probably characterized by a more alternative or unconventional style. The brand may focus on unique designs and graphics, catering to those with a bold and adventurous fashion sense.</p>
+    </div>
+
+    <div>
+        <h2>Hideout Clothing Apparel:</h2>
+        <p>As a whole, Hideout Clothing Apparel acts as a platform that brings together these diverse brands, creating a range of clothing options to appeal to various tastes and preferences in the fashion market. The collaboration showcases a mix of modern, versatile, youthful, and alternative styles, providing customers with a broad spectrum of choices within the world of fashion.</p>
+    </div>
+	<footer>
+ <h2>CONTACT FORM</h2>
+ <hr>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+
+            <input type="submit" value="Submit">
+			<br>
+			<center>
+			<a href="partners.html">Home</a> |
+		<a href="products.html">Products</a> |
+		<a href="AboutUs.html">About Us</a> |
+		<a href="ContactUs.html">Contact Us</a> |
+		<a href="index.html">index</a> 
+			<h5> Copyright (c) 2024 Hideout Clothing Apparel </h5>
+        </form>
+    </footer>
+	</body>
+</html>
+ 
+

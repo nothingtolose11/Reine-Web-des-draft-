@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+<meta charset = "UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<Title> Home Page </Title>
+</head>
+<body>
+<Header>
+<Hr>	
+<center> <H1> Partners</h1> </center>
+</header>
+<center><nav>
+		<a href="">Partners</a> |
+		<a href="">Products</a> |
+		<a href="">About Us</a> |
+		<a href="">Contact Us</a>|	
+        <a href="index.html">Home</a>		|
+		
+	</center></nav>
+	<hr>
+	<h1> PRODUCTS OFFERED: </h1>
+	<hr>
+	<ol> CLOTHING BRANDS 
+  <li>HGHMNDS</li>
+  <li>DBTK</li>
+  <li>FIGMENT CLIQUE</li>
+  </ol>
+ <hr>

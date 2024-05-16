@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+<meta charset = "UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<Title> About Us</Title>
+</head>
+<body>
+<Header>
+<Hr>	
+<center> <H1> About Us</h1> </center>
+</header>
+<center><nav>
+		<a href="partners.html">Home</a> |
+		<a href="products.html">Products</a> |
+		<a href="AboutUs.html">About Us</a> |
+		<a href="ContactUs.html">Contact Us</a> |
+		<a href="index.html">index</a> |
+		
+	</nav></center>
+	<hr>
+	<style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th colspan="2"><h1>Hideout Clothing Apparel Overview</h1></th>
+        </tr>
+        <tr>
+            <td colspan="2"><h2>Key Features of Hideout Clothing Apparel:</h2></td>
+        </tr>
+        <tr>
+            <td><h3>Contemporary Style:</h3></td>
+            <td>
+                <p>The company is known for its modern and up-to-date fashion designs.<br>
+                Styles offered by Hideout Clothing are influenced by current trends and evolving fashion preferences.</p>
+            </td>
+        </tr>
+        <tr>
+            <td><h3>Quality Craftsmanship:</h3></td>
+            <td>
+                <p>Hideout Clothing places a strong emphasis on the quality of its products.<br>
+                The company is likely to use premium materials and employ skilled craftsmanship in the creation of its apparel.</p>
+            </td>
+        </tr>
+       <td><h3>Diverse Product Range::</h3></td>
+            <td>
+                <p>THideout Clothing offers a diverse range of clothing items, catering to different preferences and occasions.<br>
+                The product line may include casual wear, formal attire, and accessories to meet various fashion needs</p>
+            </td>
+        </tr>
+       <td><h3>Brand Identity:</h3></td>
+            <td>
+                <p>The company has established a unique brand identity, reflecting its values and vision in the fashion industry.<br>
+                Hideout Clothing may emphasize individuality, self-expression, or a particular lifestyle through its branding.</p>
+            </td>
+        </tr>
+		  <td><h3>Customer-Centric Approach:</h3></td>
+            <td>
+                <p>Hideout Clothing is likely to prioritize customer satisfaction.<br>
+                Customer feedback and preferences may play a significant role in shaping the company's collections and business strategies.</p>
+            </td>
+        </tr>
+		  <td><h3>Online and Physical Presence:</h3></td>
+            <td>
+                <p>Hideout Clothing may have a presence both in physical retail locations and online platforms. This dual presence allows the brand to reach a wider audience and cater to different shopping preferences.<br>
+                </p>
+            </td>
+			</tr>
+			<td><h3>OVERALL</h3></td>
+            <td>
+                <p>Overall, Hideout Clothing Apparel is a fashion brand that focuses on delivering contemporary and high-quality clothing options to its customers, with a commitment to staying in tune with the latest trends in the fashion industry.<br>
+                </p>
+            </td>
+        </tr>
+    </table>
