@@ -81,7 +81,7 @@ form {
 </nav>
 <hr>
 <br>
-<form action="/search" method="get">
+<form id="search-form" action="/search" method="get"> <!-- Added an id to the form -->
   <input type="text" name="query" placeholder="Enter your search" required>
   <button type="submit">Search</button>
 </form>
@@ -116,12 +116,13 @@ form {
     <td><img src="ULTRAMAN.jpg" alt="DBTK X ULTRAMAN DYE TEE" width="350" height="350"><br> DBKT X ULTRAMAN DYE TEE</td>
     <td>950 PHP</td>
     <td>
-      <form action="/process_order" method="post">
+      <form id="form1" action="/process_order" method="post"> <!-- Added an id to the form -->
         <label for="quantity1">Quantity:</label>
         <input type="number" id="quantity1" name="quantity" min="1" value="1" required>
         <button type="submit" form="form1" value="Submit">Buy Now</button>
       </form>
     </td>
+    <td></td> <!-- Added an empty column to fix the table structure -->
   </tr>
   <!-- Repeat the structure for other rows -->
 </table>
