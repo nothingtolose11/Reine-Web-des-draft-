@@ -3,11 +3,15 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<Title>E-COMMERCE WEBSITE</Title>
+<title>E-COMMERCE WEBSITE</title>
+
 <style>
+/* Set background color for the body */
 body {
   background-color: #FFB6C1;
 }
+
+/* Add hover effect to images */
 .inline-images img {
   transition: transform 0.3s ease-in-out;
 }
@@ -15,117 +19,173 @@ body {
 .inline-images img:hover {
   transform: scale(1.1); /* Increase the size of the image on hover */
 }
-</style>
-</head>
-<Header>
-<Hr>
-<center><H1><p font face="Courier">Welcome to Hideout Clothing Apparel</p></H1></center>
-<marquee behavior="alternate" direction="left"><b>SPREAD THE TRUTH, SPREAD GOOD VIBES</b></marquee>
-</Header>
-<center>
-<img src="2.png" alt="2" width="200" height="200"/>
-<Hr>
-<nav>
-<b><font face="Courier New">
-<a href="partners.html"><b>Home</a> |
-<a href="products.html">Products</a> |
-<a href="AboutUs.html">About Us</a> |
-<a href="ContactUs.html">Contact Us</a> |
-<a href="index.html">index<b></a> 
-</font></b>
-</nav>
-<hr>
-<br>
-<form action="/search" method="get">
-<center>
-<input type="text" name="query" placeholder="Enter your search" required>
-<button type="submit">Search</button>
-</center>
-</form>
-<br>
-<hr>
-<div class="inline-images">
-<center>
-<img src="hghmndsbest.jpg" width="350" height="350">
-<img src="oxgn.jpg" width="350" height="350">
-<img src="dbtk.jpg" width="350" height="350">
-<img src="gnarly.jpg" width="350" height="350">
-</center>
-</div>
-<hr>
-</center>
-<center>
-<h1>Hideout Clothing Apparel</h1>
-<br>
-<br>
-<br>
-<br>
-<video width="1220" height="700" controls autoplay loop muted>
-<source src="DBTK x Ultraman teaser.mp4" type="video/mp4">
-</video>
-<audio controls autoplay loop>
-<source src="UPBEAT.mp3" type="audio/mp3">
-</audio>
-<br>
-<br>
-<br>
-<br>
-<table border="1" width="40%">
-<tr>
-<th>FEATURED CLOTHING PRODUCTS RELEASED</th>
-<th>PRICE</th>
-<th>QUANTITY</th>
-<th>BUY NOW</th>
-</tr>
-<tr>
-<td><Center><img src="ULTRAMAN.jpg" width="350" height="350"><br> DBKT X ULTRAMAN DYE TEE</td>
-<td><Center>950 PHP</td>
-<td><center><form action="/process_order" method="post">
-<label for="quantity">Quantity:</label>
-<input type="number" id="quantity" name="quantity" min="1" value="1" required>
-</form></td>
-<td><Center><button type="submit" form="form1" value="Submit">Buy Now</button></td>
-</tr>
 
-</table>
-<section>
-<h1>Company Overview</h1>
-<p>
-    <p>Hideout Clothing Apparel operates independently and is recognized for its modern and stylish fashion creations that align with current trends. The brand places a strong emphasis on ensuring the quality of its products through the use of premium materials and skilled craftsmanship. <Br>
-		Offering a varied selection of clothing items for different occasions, Hideout Clothing has established a distinct brand identity that may highlight individuality or a specific lifestyle. The company is committed to customer satisfaction, incorporating feedback into its collections and business strategies. <Br>
-		With a presence in both physical retail and online spaces, 
-		Hideout Clothing aims to reach a broad audience and accommodate various shopping preferences.<Br>
-		Overall, the brand is dedicated to providing high-quality, contemporary fashion choices in line with the latest industry trends.<Br></p>
-    </section>
-	</center>
-	<hr>
-</p>
-</section>
+/* Add cool hover effect to company overview section */
+.company-overview {
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.company-overview:hover {
+  transform: scale(1.05); /* Scale up by 5% */
+  opacity: 0.9; /* Reduce opacity to 90% */
+}
+</style>
+
+</head>
+<body>
+<header>
+  <hr>
+  <center><h1><p style="font-family: Courier;">Welcome to Hideout Clothing Apparel</p></h1></center>
+  <marquee behavior="alternate" direction="left"><b>SPREAD THE TRUTH, SPREAD GOOD VIBES</b></marquee>
+</header>
+<center>
+  <img src="2.png" alt="2" width="200" height="200"/>
+  <hr>
+  <nav>
+    <b><font face="Courier New">
+      <a href="partners.html">Home</a> |
+      <a href="products.html">Products</a> |
+      <a href="AboutUs.html">About Us</a> |
+      <a href="ContactUs.html">Contact Us</a> |
+      <a href="index.html">index</a> 
+    </font></b>
+  </nav>
+  <hr>
+  <br>
+  <form action="/search" method="get">
+    <center>
+      <input type="text" name="query" placeholder="Enter your search" required>
+      <button type="submit">Search</button>
+    </center>
+  </form>
+  <br>
+  <hr>
+  <div class="inline-images">
+    <center>
+      <img src="hghmndsbest.jpg" width="350" height="350">
+      <img src="oxgn.jpg" width="350" height="350">
+      <img src="dbtk.jpg" width="350" height="350">
+      <img src="gnarly.jpg" width="350" height="350">
+    </center>
+  </div>
+  <hr>
+</center>
+<center>
+  <h1>Hideout Clothing Apparel</h1>
+  <br>
+  <br>
+  <br>
+  <br>
+  <video width="1220" height="700" controls autoplay loop muted>
+    <source src="DBTK x Ultraman teaser.mp4" type="video/mp4">
+  </video>
+  <audio controls autoplay loop>
+    <source src="UPBEAT.mp3" type="audio/mp3">
+  </audio>
+  <br>
+  <br>
+  <br>
+  <br>
+  <table border="1" width="40%">
+    <tr>
+      <th>FEATURED CLOTHING PRODUCTS RELEASED</th>
+      <th>PRICE</th>
+      <th>QUANTITY</th>
+      <th>BUY NOW</th>
+    </tr>
+    <tr>
+      <td><center><img src="ULTRAMAN.jpg" width="350" height="350"><br> DBKT X ULTRAMAN DYE TEE</center></td>
+      <td><center>950 PHP</center></td>
+      <td><center>
+        <form action="/process_order" method="post">
+          <label for="quantity">Quantity:</label>
+          <input type="number" id="quantity" name="quantity" min="1" value="1" required>
+        </form>
+      </center></td>
+      <td><center><button type="submit" form="form1" value="Submit">Buy Now</button></center></td>
+    </tr>
+    <tr>
+      <td><center><img src="WavesDontStop.jpg" width="350" height="350"><br> DBTK WAVES DONT STOP TEE</center></td>
+      <td><center>700 PHP</center></td>
+      <td><center>
+        <form action="/process_order" method="post">
+          <label for="quantity">Quantity:</label>
+          <input type="number" id="quantity" name="quantity" min="1" value="1" required>
+        </form>
+      </center></td>
+      <td><center><button type="submit" form="form1" value="Submit">Buy Now</button></center></td>
+    </tr>
+    <tr>
+      <td><center><img src="raging skull tee.jpg" width="350" height="350"><br> HGHMNDS RAGING SKULL TEE</center></td>
+      <td><center>700 PHP</center></td>
+      <td><center>
+        <form action="/process_order" method="post">
+          <label for="quantity">Quantity:</label>
+          <input type="number" id="quantity" name="quantity" min="1" value="1" required>
+        </form>
+      </center></td>
+      <td><center><button type="submit" form="form1" value="Submit">Buy Now</button></center></td>
+    </tr>
+    <tr>
+      <td><center><img src="bat fangs tee.png" width="350" height="350"><br> HGHMNDS BAT FANGS TEE</center></td>
+      <td><center>700 PHP</center></td>
+      <td><center>
+        <form action="/process_order" method="post">
+          <label for="quantity">Quantity:</label>
+          <input type="number" id="quantity" name="quantity" min="1" value="1" required>
+        </form>
+      </center></td>
+      <td><center><button type="submit" form="form1" value="Submit">Buy Now</button></center></td>
+    </tr>
+    <tr>
+      <td><center><img src="naruto.jpg" width="350" height="350"><br> OXGN NARUTO TEE</center></td>
+      <td><center>850 PHP</center></td>
+      <td><center>
+        <form action="/process_order" method="post">
+          <label for="quantity">Quantity:</label>
+          <input type="number" id="quantity" name="quantity" min="1" value="1" required>
+        </form>
+      </center></td>
+      <td><center><button type="submit" form="form1" value="Submit">Buy Now</button></center></td>
+    </tr>
+    <tr>
+      <td><center><img src="GotYa.png" width="350" height="350"><br> GNARLY GOT YA TEE</center></td>
+      <td><center>799 PHP</center></td>
+      <td><center>
+        <form action="/process_order" method="post">
+          <label for="quantity">Quantity:</label>
+          <input type="number" id="quantity" name="quantity" min="1" value="1" required>
+        </form>
+      </center></td>
+      <td><center><button type="submit" form="form1" value="Submit">Buy Now</button></center></td>
+    </tr>
+  </table>
+  <section class="company-overview">
+    <h1>Company Overview</h1>
+    <p>Hideout Clothing Apparel operates independently and is recognized for its modern and stylish fashion creations that align with current trends. The brand places a strong emphasis on ensuring the quality of its products through the use of premium materials and skilled craftsmanship. Offering a varied selection of clothing items for different occasions, Hideout Clothing has established a distinct brand identity that may highlight individuality or a specific lifestyle. The company is committed to customer satisfaction, incorporating feedback into its collections and business strategies. With a presence in both physical retail and online spaces, Hideout Clothing aims to reach a broad audience and accommodate various shopping preferences. Overall, the brand is dedicated to providing high-quality, contemporary fashion choices in line with the latest industry trends.</p>
+  </section>
 </center>
 <hr>
 <footer>
-<h2>CONTACT FORM</h2>
-<hr>
-<form action="submit_form.php" method="post">
-<label for="name">Name:</label>
-<input type="text" id="name" name="name" required><br>
-<label for="email">Email:</label>
-<input type="email" id="email" name="email" required><br>
-<label for="message">Message:</label>
-<textarea id="message" name="message" rows="4" required></textarea><br>
-<br>
-<input type="submit" value="Submit">
-<br>
-<br>
-<a href="partners.html">Home</a> |
-<a href="products.html">Products</a> |
-<a href="AboutUs.html">About Us</a> |
-<a href="ContactUs.html">Contact Us</a> |
-<a href="index.html">index</a>
-<h4> Facebook: Hideout Clothing Apparel </h4>
-<h4> Instagram: HDT Clothing Apparel </h4>
-<h5> Copyright (c) 2024 Hideout Clothing Apparel </h5>
-</form>
+  <h2>CONTACT FORM</h2>
+  <hr>
+  <form action="submit_form.php" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br>
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="4" required></textarea><br>
+    <br>
+    <input type="submit" value="Submit">
+    <br>
+    <br>
+    <a href="partners.html">Home</a> |
+    <a href="products.html">Products</a> |
+    <a href="AboutUs.html">About Us</a> |
+    <a href="ContactUs.html">Contact Us</a> |
+    <a href="index.html">index</a>
+  </form>
 </footer>
 </body>
 </html>
